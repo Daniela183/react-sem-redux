@@ -1,0 +1,22 @@
+.Card{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    margin: 5px;
+    background-color: #72a46d;
+}
+.Card .Header{
+    display: flex;
+    justify-content: center;
+}
+.Card .Header .Title{
+    flex: 1;
+    padding: 5px;
+    background-color: #588247;
+}
+.Card .Content{
+    padding: 20px;
+}
+/* Card css
+.Card .Red .Header {color: #fff, background-color: #c62828;}
+.Card .Red .Content{background-color: #f44336}*/
