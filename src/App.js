@@ -14,7 +14,7 @@ function App() {
 
   return (
     <div className="App">
-      <h1>Exercício React-Redux (simples)</h1>
+      <h1>Exercício React-sem-Redux (simples)</h1>
       <div className='linha'>
         <Intervalo min={min} max={max}
           onMinChanged={setMin} onMaxChanged={setMax}></Intervalo>
